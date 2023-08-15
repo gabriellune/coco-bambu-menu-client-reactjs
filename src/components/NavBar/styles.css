@@ -1,0 +1,53 @@
+.nav-bar {
+  background-color: #393939;
+  display:          flex;
+  width:            100%;
+}
+
+.nav-bar-logo {
+  background-color: #393939;
+  display:          flex;
+  width:            100%;
+  padding: 1em;
+  width:   22%;
+}
+
+.nav-bar-search {
+  background-color: #393939;
+  display:          flex;
+  align-items:     center;
+  display:         flex;
+  justify-content: center;
+  width:           100%;
+}
+
+.search-bar {
+  display: flex;
+  width:   90%;
+}
+
+.input {
+  display: flex;
+  width:   90%;
+  border-style: none;
+  font-size:    .8125em;
+  padding:      .46875em .75em;
+  width: 70%;
+}
+
+.icon {
+  display: flex;
+  width:   90%;
+  background-color: #fff;
+  background-image: url('../../images//icon-busca.png');
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center center;
+  width: 2.75em;
+  height: 2.75em;
+}
+
+.logout {
+  display: flex;
+}
+

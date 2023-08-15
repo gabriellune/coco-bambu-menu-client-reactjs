@@ -1,0 +1,64 @@
+.line {
+  background-color: #f0f0f0;
+  height: 1px;
+  margin: 25px 0;
+  width: 100%;
+}
+
+.order {
+  align-items: center;
+  display:    flex;
+  max-height: 160px;
+
+}
+
+.image {
+  align-items: center;
+  display: flex;
+  max-height: 160px;
+  max-width: 20%;
+}
+
+.dish-name {
+  color: #4d4d4d;
+  font-size: 1.5em;
+  padding-left: 15px;
+  width: 80%;
+}
+
+.dish-description {
+  color: #4d4d4d;
+  font-size: 0.80em;
+  line-height: 1.5em;
+  padding-left: 15px;
+  width: 80%;
+}
+
+.see-recipe {
+  align-items: center;
+  display: flex;
+  max-height: 160px;
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  background-color: #f67a20;
+  border-radius: 50%;
+  color: #fbffff;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.see-recipe:hover {
+  cursor: pointer;
+}
+
+.order-actions {
+  align-items: center;
+  display: flex;
+  max-height: 160px;
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+}

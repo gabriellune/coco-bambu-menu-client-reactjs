@@ -8,7 +8,7 @@ HttpConfig.interceptors.request.use((config) => {
     const accessToken = JSON.parse(localStorage.getItem('accessToken') || '{}');
 
     if (accessToken.accessToken) {
-        config.headers.set('Authorization', `Bearer ${accessToken.accessToken}`)
+        config.headers.set('Authorization', `${accessToken.accessToken}`)
     }
 
     return config;

@@ -1,0 +1,15 @@
+.container {
+  padding: 26px 16px;
+}
+
+.title {
+  color: #383838;
+  font-size: 1em;
+}
+
+.line {
+  background-color: #f0f0f0;
+  height: 1px;
+  margin: 25px 0;
+  width: 100%;
+}

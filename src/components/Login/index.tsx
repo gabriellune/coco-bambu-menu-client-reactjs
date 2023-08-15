@@ -21,7 +21,7 @@ function Login() {
 
   useEffect(() => {
     if (userInfo.token) {
-        navigate('/feed')
+        navigate('/dishes')
     }
   }, [navigate, userInfo]);
 
@@ -37,7 +37,7 @@ function Login() {
       setUserInfo({ ...response.data });
       localStorage.setItem("accessToken", JSON.stringify({ ...response.data }));
       setIsAuthorized(true)
-      navigate('/feed');
+      navigate('/dishes');
     } catch (err) {
       console.error(err);
       setIsAuthorized(false)
